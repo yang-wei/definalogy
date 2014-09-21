@@ -71,7 +71,7 @@ But we know the real truth; that the little girl with the princess inside...
 
 ...is really a princess with a little girl inside.
 
-_by [Jacob Swartwood](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work/6472397#6472397)_
+_by [Jacob Swartwood][closure_ref1]_
 
 ####Explaination 2
 The kitchen is a closure that has a local variable, called trashBags. There is a function inside the kitchen called getTrashBag that gets one trash bag and returns it.
@@ -94,7 +94,7 @@ kitchen.getTrashBag(); // returns trash bag C
 kitchen.getTrashBag(); // returns trash bag B
 kitchen.getTrashBag(); // returns trash bag A
 ```
-_by [dlaliberte](http://stackoverflow.com/a/7285658/2844763)_
+_by [dlaliberte][closure_ref2]_
 
 **[⬆ back to top](#table-of-contents)**
 ###Encapsulation
@@ -111,19 +111,19 @@ Now, think that car manufactures decided to put the fuel cap below the car, and 
 
 So, as you can see, the goal of encapsulation is to minimize interdependence and facilitate change. You maximize encapsulation by minimizing the exposure of implementation details. The state of a class should only be accessed through its public interface.
 
-_by [Edwin Dalorzo](http://stackoverflow.com/a/11970468/2844763)_
+_by [Edwin Dalorzo][encapsulation_ref]_
 **[⬆ back to top](#table-of-contents)**
 
 ###Framework
 If I say you to cut a paper of dimension 5m by 5m then surely you would do that. But then I ask you to cut 1000 paper of the same dimension. Then you won't do the measuring for 1000 times, obviously you would make a frame of 5m by 5m and then with the help of it you would be able to cut 1000 papers in less time. So, what you did is you made a framewok which would do that type of task. So, instead of performing same type of task again and again for same type of applications, what you do is you create a framework having all those facilities together in one nice packet and hence providing the abstraction for your application and more importantly many applications.
 
-_by [Neha Choudhary][framework]_
+_by [Neha Choudhary][framework_ref]_
 
 
 ###Object
 I like the original metaphor used by Alan Kay, who coined "object-oriented programming": Objects are like cells in a body. They are each programmed with their own behaviors and communicate by passing messages to one another, which they again respond to with their own internally defined behavior. No one cell knows what's inside another — they just know how to handle their own tasks and communicate with each other.
 
-_by [Chuck](http://stackoverflow.com/a/995204/2844763)_
+_by [Chuck][object_ref]_
 
 
 ###Recursion
@@ -135,23 +135,30 @@ _by [Chuck](http://stackoverflow.com/a/995204/2844763)_
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...and the _**little frog**_ fell asleep;<br>
 >...and the _**child**_ fell asleep.
 
-_by [A CS Professor](http://everything2.com/user/wharfinger/writeups/recursion)_
+_by [A CS Professor][recursion_ref]_
 
 
 ###REST
-This blog post is a bit long, so I decided to point this to the original blog post. To understand RESTFUL service in interesting way, please read [How I Explained REST to My Wife][rest]
+This blog post is a bit long, so I decided to point this to the original blog post. To understand RESTFUL service in interesting way, please read [How I Explained REST to My Wife][rest_ref]
 
 _by Ryan Tomayko_
 **[⬆ back to top](#table-of-contents)**
 
 ###Variable
 
-![Eloquent Javascript](http://eloquentjavascript.net/2nd_edition/preview/img/octopus.jpg)
+![Eloquent Javascript][eloquentjavascript]
 You should imagine variables as tentacles, rather than boxes. They do not contain values; they grasp them—two variables can refer to the same value. A program can only access the values that it still has a hold on. When you need to remember something, you grow a tentacle to hold on to it or you reattach one of your existing tentacles to it.
 
-_by [Marijin Haverbeke](http://eloquentjavascript.net/2nd_edition/preview/02_program_structure.html)_
+_by [Marijin Haverbeke][variable_ref]
 **[⬆ back to top](#table-of-contents)**
 
 [wikipedia]:http://en.wikipedia.org/wiki/JavaScript
-[framework]:http://stackoverflow.com/a/12733126/2844763
-[rest]:http://www.looah.com/source/view/2284
+[closure_ref1]:http://stackoverflow.com/questions/111102/how-do-javascript-closures-work/6472397#6472397
+[closure_ref2]:http://stackoverflow.com/a/7285658/2844763
+[encapsulation_ref]:http://stackoverflow.com/a/11970468/2844763
+[framework_ref]:http://stackoverflow.com/a/12733126/2844763
+[object_ref]:http://stackoverflow.com/a/995204/2844763
+[recursion_ref]:http://everything2.com/user/wharfinger/writeups/recursion
+[rest_ref]:http://www.looah.com/source/view/2284
+[eloquentjavascript]:http://eloquentjavascript.net/2nd_edition/preview/img/octopus.jpg
+[variable_ref]:http://eloquentjavascript.net/2nd_edition/preview/02_program_structure.html
