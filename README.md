@@ -7,14 +7,6 @@ A collection of non-wiki style in defining vocabulary related to computer progra
  * understand concepts first before they head to documentation or Wikipedia
  * explain thing in ~~wiki~~ analogy/metaphor styles to customers, students, family members etc
 
-##Example ( Java vs Javascript )
->JavaScript copies many names and naming conventions from Java, but the two languages are otherwise unrelated and have very different semantics.<br>
-><cite>&mdash;[Wikipedia][wikipedia]</cite>
-
-This is indeed a very good explanation. But sometime, we just want this.
->Java is to Javascript what car is to carpet<br>
-><cite>&mdash;Chris Heilmann</cite>
-
 Short, simple, cool enough.
 ##Table of Contents
  - [Closure](#closure)
