@@ -1,5 +1,7 @@
 #Definalogy
 
+The ah-ah moment !
+
 Albert Einstein
 > If you can't explain it *simply*, you dont't understand it well enough.
 
@@ -12,6 +14,7 @@ Short, simple, cool enough.
  - [Closure](#closure)
  - [Encapsulation](#encapsulation)
  - [Framework](#framework)
+ - [Immutability](#immutability)
  - [Object](#object)
  - [Recursion](#recursion)
  - [Rest](#rest)
@@ -105,6 +108,21 @@ So, as you can see, the goal of encapsulation is to minimize interdependence and
 
 _by [Edwin Dalorzo][encapsulation_ref]_
 **[⬆ back to top](#table-of-contents)**
+
+
+#Immutability
+
+I never understand the important of immutability until I saw this.
+
+> Let's do a little thought experiment. Let's look at a nice mutable system: paper and pencil. You can write, erase, and write again. It's very convenient. It lets you correct mistakes. And when you don't need something anymore, you can easily erase it.
+
+> Now answer this: would you trust a bank that used pencils to record transactions? It would be easy: whenever you would withdraw money, they would erase the old balance and write the new balance. And if you transferred money from one account to another, they'd erase two balances and write the new ones in. It may sound great, but there's a reason banks don't use pencils: they want to be sure nothing has changed. That sounds like immutability.
+
+from [But the World is Mutable](http://www.lispcast.com/the-world-is-mutable)
+
+_by [Eric Normand](http://www.lispcast.com/)
+**[⬆ back to top](#table-of-contents)**
+
 
 ###Framework
 If I say you to cut a paper of dimension 5m by 5m then surely you would do that. But then I ask you to cut 1000 paper of the same dimension. Then you won't do the measuring for 1000 times, obviously you would make a frame of 5m by 5m and then with the help of it you would be able to cut 1000 papers in less time. So, what you did is you made a framewok which would do that type of task. So, instead of performing same type of task again and again for same type of applications, what you do is you create a framework having all those facilities together in one nice packet and hence providing the abstraction for your application and more importantly many applications.
